@@ -9,7 +9,7 @@ We will update this section when our 2024 effort commences.
 
 ## Introduction
 
-HelenaSSAM is an open source large language or action model with the following goals.
+HelenaSSAM is an open source language or action model with the following goals.
 
 1. The system shall translate from human languge commands to computer aided design (CAD) action sequences.
 2. The sequence shall be runnable in a To Be Decided CAD system such as CADQuery, FreeCAD, OnShape, Fusion360, or Blender.
