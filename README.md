@@ -13,7 +13,7 @@ HelenaSSAM is an open source language or action model with the following goals.
 
 1. The system shall translate from human languge commands to computer aided design (CAD) action sequences.
 2. The sequence shall be runnable in a To Be Decided CAD system such as CADQuery, FreeCAD, OnShape, Fusion360, or Blender.
-3. The model shall fit (for inference) in a computer with relatively small computer as defined below (e.g. memory of 32 GB, and a single GPU). The output shall be computable in 30 seconds or less.
+3. The model shall fit (for inference) in a computer with relatively small specifications as defined below (e.g. memory of 32 GB, and a single GPU). The output shall be computable in 30 seconds or less.
 4. Training the system shall be feasible in a computer with similar specifications or a small cluster, e.g. with 5 computers, of similar specifications. Training the model can take longer (e.g. 1 month).
 
 ## Example of input and output
