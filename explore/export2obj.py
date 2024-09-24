@@ -4,7 +4,7 @@ import json
 import h5py
 import numpy as np
 from OCC.Core.BRepCheck import BRepCheck_Analyzer
-from OCC.Extend.DataExchange import write_stl_file
+from OCC.Extend.DataExchange import write_obj_file
 import argparse
 import sys
 
@@ -69,7 +69,5 @@ for path in out_paths:
             continue
 
     name = path.split("/")[-1].split(".")[0]
-    save_path = os.path.join(save_dir, name + ".stl")
-    write_stl_file(
-        out_shape, save_path, linear_deflection=0.0001, angular_deflection=0.01
-    )
+    save_path = os.path.join(save_dir, name + ".obj")
+    write_obj_file(out_shape, save_path)
