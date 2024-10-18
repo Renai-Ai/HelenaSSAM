@@ -30,7 +30,7 @@ The state of the art for 3D model generation from text is really bad. So, we bel
 
 ## Why do we call it an _action_ model and not just a _language_ model?
 
-Let's take the example of robotic motion plannin. Going from a description of intended goal such as ``Transfer the dishes from the table to the sink`` does not have one single path to actual motor sequence of actions performed by a robot. It could need feedback from the real world to adjust its initial plan based on feedback from the real world.
+Let's take the example of robotic motion planning. Going from a description of intended goal such as ``Transfer the dishes from the table to the sink`` does not have one single path to actual motor sequence of actions performed by a robot. It could need feedback from the real world to adjust its initial plan based on feedback from the real world.
 
 When complete, we imagine that Helena will be able to interact with various CAD tools through API-like machine-to-machine software interfaces. Versions of different CAD design tools might be able to provide new operations that the model can try and get partial output. The model chould change or undo operations to get to the final CAD result.
 
